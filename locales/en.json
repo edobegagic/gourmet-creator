@@ -1,0 +1,24 @@
+{
+  "menu": {
+    "appetizer": "Appetizer",
+    "entree": "Entree",
+    "dessert": "Dessert",
+    "drinks": "Drinks"
+  },
+  "a_la_carte": {
+    "starter": "Starter",
+    "main_course": "Main Course",
+    "side_dish": "Side Dish",
+    "dessert": "Dessert"
+  },
+  "wine": {
+    "red_wine": "Red Wine",
+    "white_wine": "White Wine",
+    "rose_wine": "Rosé Wine",
+    "sparkling_wine": "Sparkling Wine",
+    "teran": "Teran",
+    "malvazija": "Malvasia",
+    "sovinjon": "Savignon",
+    "prosecco": "Prosecco"
+  }
+}

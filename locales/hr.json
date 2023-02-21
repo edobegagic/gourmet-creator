@@ -1,0 +1,24 @@
+{
+  "menu": {
+    "appetizer": "Predjelo",
+    "entree": "Glavno jelo",
+    "dessert": "Desert",
+    "drinks": "Piće"
+  },
+  "a_la_carte": {
+    "starter": "Predjelo",
+    "main_course": "Glavno jelo",
+    "side_dish": "Prilog",
+    "dessert": "Desert"
+  },
+  "wine": {
+    "red_wine": "Crno vino",
+    "white_wine": "Bijelo vino",
+    "rose_wine": "Roze vino",
+    "sparkling_wine": "PJenušavo vino",
+    "teran": "Teran",
+    "malvazija": "Malvazija",
+    "sovinjon": "Sovinjon",
+    "prosecco": "Proseco"
+  }
+}

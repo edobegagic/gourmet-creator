@@ -1,0 +1,38 @@
+/*SHADOWS*/
+
+.nav-shadow {
+  box-shadow: 6px 6px 80px rgba(0, 0, 0, 0.1);
+}
+.portfolio-shadow {
+  box-shadow: 4px 4px 20px #c9c9c9;
+}
+/* 
+a:hover {
+  color: #c60000;
+} */
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
+}
+
+.fade-enter,
+.fade-leave-active {
+  opacity: 0;
+}
+
+.only-print {
+  display: none;
+}
+
+@media print {
+  .only-print {
+    display: block;
+  }
+}
+
+@media print {
+  .no-print {
+    display: none;
+  }
+}

@@ -1,0 +1,65 @@
+/* ./assets/css/tailwind.css */
+@tailwind base;
+@tailwind components;
+
+/*TYPOGRAPHY*/
+.heading-main {
+  @apply font-extrabold text-sm_h1 sm:text-lg_h1 text-heading font-title leading-[58px] sm:leading-[78px];
+}
+
+h1 {
+  @apply font-extrabold text-sm_h1 sm:text-lg_h1 text-heading font-title;
+}
+h2 {
+  @apply font-bold text-sm_h2 sm:text-lg_h2 text-heading font-title;
+}
+h3 {
+  @apply font-semibold text-sm_h3 sm:text-lg_h3 text-heading font-title;
+}
+h4 {
+  @apply font-semibold text-sm_h4 sm:text-lg_h4 text-heading font-title;
+}
+h5 {
+  @apply font-bold text-sm_h5 sm:text-lg_h5 text-heading font-title;
+}
+
+.body-lg {
+  @apply text-text font-body text-sm_body_20 sm:text-lg_body_20;
+}
+p {
+  @apply text-text font-body text-sm_body sm:text-lg_body;
+}
+
+.newsletter-p,
+.newsletter-p::placeholder {
+  @apply font-regular text-sm_newsletter sm:text-lg_newsletter text-heading font-title;
+}
+.hint {
+  @apply font-regular text-sm_hint sm:text-lg_hint text-heading font-body;
+}
+
+.portfolio-title {
+  @apply font-bold text-sm_portfolio_title sm:text-lg_portfolio_title text-heading font-body;
+}
+
+.nav-p {
+  @apply font-bold text-sm_nav sm:text-lg_nav text-text font-title;
+}
+
+.foot-p {
+  @apply font-bold text-sm_foot sm:text-lg_foot text-heading font-body;
+}
+
+.button-regular-p {
+  @apply font-bold text-sm_button_regular sm:text-lg_button_regular text-text font-body;
+}
+
+.button-strong-p {
+  @apply font-bold text-sm_button_strong sm:text-lg_button_strong text-text font-title;
+}
+
+.wrapper {
+  @apply max-w-[1536px] mx-auto px-6 sm:px-24;
+}
+
+@tailwind utilities;
